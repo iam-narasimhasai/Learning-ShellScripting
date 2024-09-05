@@ -15,7 +15,7 @@ print all elements in the array
 declare associate array
 
 declare string
-length of string
+length of string failed1
 string uppercase
 string lowercase
 string replace
