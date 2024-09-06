@@ -22,3 +22,4 @@ string replace
 string slice
 
 user interactions
+arithmetic operations
