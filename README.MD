@@ -21,3 +21,4 @@ string lowercase
 string replace
 string slice
 
+user interactions
