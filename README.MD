@@ -21,5 +21,6 @@ string lowercase
 string replace
 string slice
 
-user interactions
-arithmetic operations
+user interactions keyword and its -p
+arithmetic operations 2 ways
+conditional statements
