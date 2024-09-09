@@ -24,6 +24,8 @@ string slice
 user interactions keyword and its -p
 arithmetic operations 2 ways
 conditional statements
-case statement
-terrinary
+case statement failed1
+terrinary failed1
 forloop
+forloopwitharray failed1
+forloopwithfile failed1
