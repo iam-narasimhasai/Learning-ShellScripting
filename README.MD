@@ -32,4 +32,5 @@ forloopwithfile failed1
 whileloop
 untiloop
 expr
-infinite loop
+infinite loop with while and for loop
+read from file with while
