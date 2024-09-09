@@ -29,3 +29,7 @@ terrinary failed1
 forloop
 forloopwitharray failed1
 forloopwithfile failed1
+whileloop
+untiloop
+expr
+infinite loop
