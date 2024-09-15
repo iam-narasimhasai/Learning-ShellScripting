@@ -4,9 +4,10 @@ fun(){
     echo "welcome $1"
 }
 
-#fun sai
+fun sai
 
-add(){
+add() {
+    
     echo "number 1 is $1"
     echo "number 2 is $2"
     #using local keyword restrict scope of variable within the function
