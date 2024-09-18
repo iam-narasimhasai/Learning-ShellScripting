@@ -34,3 +34,6 @@ untiloop
 expr
 infinite loop with while and for loop
 read from file with while
+functions
+functions and passing arguments to functions
+passing arguments to script

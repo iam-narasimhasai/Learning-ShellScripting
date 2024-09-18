@@ -3,6 +3,12 @@
 fun(){
     echo "welcome $1"
 }
+a=10
+b=2
+
+a=$(expr $a + $b) # should not be (expr $a+$b)
+
+echo "$a"
 
 fun sai
 
