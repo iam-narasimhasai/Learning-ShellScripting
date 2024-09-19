@@ -37,3 +37,4 @@ read from file with while
 functions
 functions and passing arguments to functions
 passing arguments to script
+break ,continue , sleep , exit , exit status
