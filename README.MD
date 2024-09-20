@@ -38,3 +38,5 @@ functions
 functions and passing arguments to functions
 passing arguments to script
 break ,continue , sleep , exit , exit status
+basename dirname realpath
+check if file/dir exixts
