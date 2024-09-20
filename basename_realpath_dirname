@@ -1,0 +1,81 @@
+➜  Learning-ShellScripting git:(main) basename /mnt/c/Users/naras/OneDrive/Documents/Learning-ShellScripting/arg2.sh
+arg2.sh
+# gives file name
+
+➜  Learning-ShellScripting git:(main) dirname /mnt/c/Users/naras/OneDrive/Documents/Learning-ShellScripting/arg2.sh
+/mnt/c/Users/naras/OneDrive/Documents/Learning-ShellScripting
+# gives directory name 
+
+In shell scripting, `realpath`, `basename`, and `dirname` are commonly used commands to manipulate file paths. Here’s how each of them works:
+
+### 1. **`realpath`**
+   - **Purpose**: Returns the absolute path of a given file or directory.
+   - **Usage**: 
+     
+     realpath [file_or_directory]
+     ```
+   - **Example**:
+     
+     realpath ./myfile.txt
+     ```
+     If you are in `/home/user/project` and `myfile.txt` is in the current directory, it will return:
+     ```
+     /home/user/project/myfile.txt
+     ```
+
+### 2. **`basename`**
+   - **Purpose**: Extracts the filename or directory name from a given path.
+   - **Usage**: 
+     
+     basename [file_or_directory_path] [suffix]
+     ```
+   - **Example**:
+     
+     basename /home/user/project/myfile.txt
+     ```
+     Output:
+     ```
+     myfile.txt
+     ```
+     If you use a suffix (e.g., `.txt`), it will strip the suffix:
+     ```bash
+     basename /home/user/project/myfile.txt .txt
+     ```
+     Output:
+     ```
+     myfile
+     ```
+
+### 3. **`dirname`**
+   - **Purpose**: Extracts the directory path from a given file path.
+   - **Usage**: 
+     
+     dirname [file_path]
+     ```
+   - **Example**:
+     
+     dirname /home/user/project/myfile.txt
+     ```
+     Output:
+     ```
+     /home/user/project
+     ```
+
+### Use Case Example:
+
+file_path="/home/user/project/myfile.txt"
+
+# Get the absolute path
+absolute_path=$(realpath "$file_path")
+echo "Absolute Path: $absolute_path"
+
+# Get the filename
+filename=$(basename "$file_path")
+echo "Filename: $filename"
+
+# Get the directory name
+directory=$(dirname "$file_path")
+echo "Directory: $directory"
+
+
+This script will output the absolute path, filename, and directory name separately.
