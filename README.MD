@@ -44,3 +44,11 @@ check if file/dir exixts
 nameofscript
 logger
 debugging the script
+at and crontab nohup ./script.sh &
+
+# Projects
+
+Monitoring free RAM space
+
+Monitoring free DISK space and sent an ALERT mail
+
