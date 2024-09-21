@@ -50,5 +50,5 @@ at and crontab nohup ./script.sh &
 
 Monitoring free RAM space
 
-Monitoring free DISK space and sent an ALERT mail
+Monitoring free DISK space and sent an ALERT mail (POSTFIX mandatory for email)
 
