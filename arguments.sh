@@ -1,5 +1,13 @@
 #!/bin/bash 
 
+
+
+if [ $# -eq 0 ]
+then
+echo "please provide at least one argument"
+exit 1
+fi
+
 echo "welcome $1"
 
 echo "$1 we are happy to onboard you"

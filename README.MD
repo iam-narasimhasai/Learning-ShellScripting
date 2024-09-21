@@ -42,3 +42,5 @@ basename dirname realpath
 check if file/dir exixts
 &> /dev/null
 nameofscript
+logger
+debugging the script
