@@ -1,0 +1,12 @@
+https://crontab.guru/#*_*_*_*_*
+
+crontab -l - to view
+
+crontab -e - to create cronjob
+
+If your cron job is not running as expected, you can check the cron logs for errors. On most Linux systems, the logs are in /var/log/cron or /var/log/syslog
+
+grep CRON /var/log/syslog
+
+
+16 03 * * * cd /mnt/c/Users/naras/OneDrive/Documents/Learning-ShellScripting && ./hi.sh
