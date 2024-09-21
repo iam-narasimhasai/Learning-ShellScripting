@@ -1,0 +1,9 @@
+[root@ip-172-31-44-140 ec2-user]# date
+Sat Sep 21 17:59:09 IST 2024
+[root@ip-172-31-44-140 ec2-user]# at 17:59 31 July 2025
+at> echo hello>test.txt                
+at> <EOT>
+job 4 at Thu Jul 31 17:59:00 2025
+[root@ip-172-31-44-140 ec2-user]# atq
+4       Thu Jul 31 17:59:00 2025 a root
+[root@ip-172-31-44-140 ec2-user]# 
