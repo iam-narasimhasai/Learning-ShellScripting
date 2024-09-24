@@ -52,3 +52,7 @@ Monitoring free RAM space
 
 Monitoring free DISK space and sent an ALERT mail (POSTFIX mandatory for email)
 
+Archive older files or Archive large files
+In the given directory, if you find files more than a given size ex:
+20MB or files older than given days ex:10days
+Compress those files and move in a 'archive' folder.

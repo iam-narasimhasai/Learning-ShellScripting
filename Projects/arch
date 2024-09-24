@@ -1,0 +1,7 @@
+#provide path of the directory
+# check if the dir is present or not
+# create archive folder if not already present
+# find all files with size more than 20 mb
+# compress each file
+# move the compressed files in archive folder
+# make a cron job run the script everyday at given time
